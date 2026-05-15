@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shiv Sai Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
+    }
+
+    header h1{
+      font-size:4rem;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:1.2rem;
+      color:#cbd5e1;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 24px;
+      background:#3b82f6;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      transition:0.3s;
+      font-weight:bold;
+    }
+
+    .btn:hover{
+      background:#2563eb;
+      transform:scale(1.05);
+    }
+
+    section{
+      padding:70px 0;
+    }
+
+    h2{
+      font-size:2rem;
+      margin-bottom:25px;
+      color:#60a5fa;
+      border-left:5px solid #3b82f6;
+      padding-left:10px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:18px;
+      margin-bottom:20px;
+      box-shadow:0 0 15px rgba(0,0,0,0.3);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .skill-box{
+      background:#334155;
+      padding:20px;
+      border-radius:15px;
+      text-align:center;
+      font-weight:bold;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#020617;
+      color:#94a3b8;
+    }
+
+    .highlight{
+      color:#38bdf8;
+      font-weight:bold;
+    }
+
+    .tag{
+      display:inline-block;
+      background:#2563eb;
+      padding:6px 12px;
+      border-radius:20px;
+      margin:5px;
+      font-size:0.9rem;
+    }
+
+    @media(max-width:768px){
+
+      header h1{
+        font-size:2.5rem;
+      }
+
+      header p{
+        font-size:1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Shiv Sai 👋</h1>
+      <p>
+        10th Grade Student • AI Explorer • Python Learner • Gamer 🎮
+      </p>
+
+      <a href="#about" class="btn">Explore Portfolio 🚀</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+
+      <h2>👤 About Me</h2>
+
+      <div class="card">
+        <p>
+          My name is <span class="highlight">Shiv Sai Subramonyam D</span>.
+          I study in <span class="highlight">10th Grade</span>,
+          Section <span class="highlight">A1</span>,
+          Roll Number <span class="highlight">26</span>.
+        </p>
+
+        <br>
+
+        <p>
+          I study at <span class="highlight">Sun Shine SSM Senior Secondary School</span>.
+        </p>
+
+        <br>
+
+        <p>
+          I enjoy learning futuristic technologies like AI,
+          machine learning, and programming.
+          I also love improving projects until they look clean,
+          understandable, and professional.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LEARNING STYLE -->
+  <section>
+    <div class="container">
+
+      <h2>📚 My Learning Style</h2>
+
+      <div class="skills">
+
+        <div class="skill-box">
+          ✅ Step-by-step learning
+        </div>
+
+        <div class="skill-box">
+          ✅ Easy English explanations
+        </div>
+
+        <div class="skill-box">
+          ✅ Visual & gaming examples
+        </div>
+
+        <div class="skill-box">
+          ✅ Fun stories & analogies
+        </div>
+
+        <div class="skill-box">
+          ✅ Straight answers
+        </div>
+
+        <div class="skill-box">
+          ✅ Human-style notes
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TECH -->
+  <section>
+    <div class="container">
+
+      <h2>💻 Tech Interests</h2>
+
+      <div class="card">
+
+        <span class="tag">Python</span>
+        <span class="tag">Artificial Intelligence</span>
+        <span class="tag">Machine Learning</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Google Colab</span>
+        <span class="tag">HTML</span>
+        <span class="tag">Markdown</span>
+
+        <br><br>
+
+        <p>
+          I enjoy building projects, organizing GitHub repositories,
+          creating markdown notes, and learning how AI models work.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="container">
+
+      <h2>🚀 Projects & Topics Explored</h2>
+
+      <div class="card">
+        <ul>
+          <li>CNN Basics</li>
+          <li>Classification Models</li>
+          <li>Random Forest</li>
+          <li>AI Workshop Notes</li>
+          <li>GitHub Repo Organization</li>
+          <li>Markdown Documentation</li>
+          <li>Machine Learning Concepts</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GAMER SIDE -->
+  <section>
+    <div class="container">
+
+      <h2>🎮 Gamer Mindset</h2>
+
+      <div class="card">
+        <p>
+          I understand concepts better using:
+        </p>
+
+        <br>
+
+        <ul>
+          <li>Game-style explanations 🎯</li>
+          <li>Stories & visuals 🌌</li>
+          <li>Fun analogies ⚡</li>
+          <li>Interactive learning 🧠</li>
+        </ul>
+
+        <br>
+
+        <p>
+          For me, learning AI feels like unlocking skill trees in a game.
+          Every new concept is like upgrading abilities for the future.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAMILY -->
+  <section>
+    <div class="container">
+
+      <h2>👨‍👩‍👦 Family</h2>
+
+      <div class="card">
+        <p><strong>Brother:</strong> Kishan Subramonyam</p>
+        <p><strong>Mother:</strong> Karthika Subramonia Pillai</p>
+        <p><strong>Father:</strong> Dev Anand Thiruchitambala Subramonia Pillai</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FUTURE -->
+  <section>
+    <div class="container">
+
+      <h2>✨ Future Goals</h2>
+
+      <div class="card">
+
+        <p>
+          I want to become someone who builds powerful AI systems
+          and futuristic technologies instead of just watching them happen.
+        </p>
+
+        <br>
+
+        <p>
+          My goal is to keep learning, improving projects,
+          and becoming better at programming and artificial intelligence every day.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      Made with ❤️ by Shiv Sai Subramonyam D
+    </p>
+  </footer>
+
+</body>
+</html>
